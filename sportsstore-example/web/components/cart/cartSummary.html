@@ -1,0 +1,11 @@
+<!-- <link rel="stylesheet" href="{{stylesPath}}"/> -->
+
+<div class="navbar-right">
+    <div class="navbar-text">
+        <b>Your cart:</b>
+        {{itemCount()}} item(s),
+        {{total() | currency}}
+    </div>
+    <a href="#/checkout" class="btn btn-default navbar-btn">Checkout</a>
+
+</div>
