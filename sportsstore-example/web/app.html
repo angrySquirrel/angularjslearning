@@ -15,6 +15,10 @@
 				// templateUrl:'views/test.html'
 			}).when('/products',{
 				templateUrl:'views/productList.html'
+			}).when('/placeorder',{
+				templateUrl:'views/placeorder.html'
+			}).when('/complete',{
+				templateUrl:'views/thankYou.html'
 			}).otherwise({
 				templateUrl:'views/productList.html'
 			});
@@ -29,6 +33,7 @@
 	<script src="filter/customFilters.js"></script>
 	<script src="controller/productListControllers.js"></script>
 	<script src="components/cart/cart.js"></script>
+	<script src="controller/checkoutControllers.js"></script>
 </head>
 
 <body ng-controller="sportsStoreCtrl">
